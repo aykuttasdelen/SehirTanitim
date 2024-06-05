@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".GezilecekYerlerActivity">
+
+    <ImageView
+        android:id="@+id/yer1ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yer1"
+        android:contentDescription="Yer 1" />
+
+    <TextView
+        android:id="@+id/yer1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yer 1 açıklaması"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/yer2ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yer2"
+        android:contentDescription="Yer 2" />
+
+    <TextView
+        android:id="@+id/yer2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yer 2 açıklaması"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/yer3ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yer3"
+        android:contentDescription="Yer 3" />
+
+    <TextView
+        android:id="@+id/yer3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yer 3 açıklaması"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+</LinearLayout>

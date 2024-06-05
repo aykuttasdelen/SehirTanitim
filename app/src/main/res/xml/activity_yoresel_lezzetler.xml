@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".YoreselLezzetlerActivity">
+
+    <ImageView
+        android:id="@+id/lezzet1ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lezzet1"
+        android:contentDescription="Lezzet 1" />
+
+    <TextView
+        android:id="@+id/lezzet1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lezzet 1 açıklaması"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/lezzet2ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lezzet2"
+        android:contentDescription="Lezzet 2" />
+
+    <TextView
+        android:id="@+id/lezzet2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lezzet 2 açıklaması"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/lezzet3ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lezzet3"
+        android:contentDescription="Lezzet 3" />
+
+    <TextView
+        android:id="@+id/lezzet3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lezzet 3 açıklaması"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gezilecek/Tarihi Yerler"
+        android:layout_gravity="center"
+        android:padding="16dp" />
+
+</LinearLayout>

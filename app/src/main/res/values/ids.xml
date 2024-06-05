@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lezzet1ImageView" type="id" />
+    <item name="lezzet1TextView" type="id" />
+</resources>
